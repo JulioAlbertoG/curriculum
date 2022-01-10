@@ -1,0 +1,57 @@
+:root{
+	--green: #17B2A9;
+}
+*{
+	
+}
+/*---HEADER----*/
+.backgreen{
+	background: var(--green);
+}
+.backblack{
+	background: grey;
+	opacity: 0.7;
+	position: -webkit-sticky;
+  	position: sticky;
+  	bottom: 0;
+}
+.white{
+	color: white;
+}
+.foto{
+	background-image: url("img/foto1.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 60%;
+}
+
+/*CONTENIDO*/
+.linea{
+	border-bottom: 4px solid lightblue;
+	width: auto;
+}
+.linea2{
+	border-bottom: 4px solid lightblue;
+	width: 100%;
+}
+.thin_line{
+	border-bottom: 2px solid lightgrey;
+	width: auto;
+}
+.shadow_card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social_media{
+	color: white;
+}
+footer a:hover{
+	color: black;
+}
+.languaje{
+	width: 2rem;
+	height: auto;
+}
+.download{
+	width: 50%;
+}
